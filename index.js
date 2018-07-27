@@ -1,6 +1,6 @@
-function takeANumber (katzDeliLine,newPersonsName){
+function takeANumber (katzDeliLine,name){
   for (let i = 0; i < katzDeliLine.length; i++)
-  katzDeliLine.push(newPersonsName);
-}
+  katzDeliLine.push(name);
 return `Welcome, ${newPersonsName[i]}. You are number ${katzDeliLine[i]
 }`;
+}
